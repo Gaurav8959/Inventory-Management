@@ -1,0 +1,53 @@
+/**======================================================================
+=========================================================================
+Template Name: Datta Able Admin Template
+Author: Codedthemes
+supports: https://codedthemes.support-hub.io/
+File: style.css
+=========================================================================
+=========================================================================
+  == Table of Contents==
+	- Generic classes
+		-	Margin, Padding, Font class, text align, position, floating, overflow, background class, text color, display class, boarder class
+	- Theme Elements
+		-	Accordion, Button, tabs, typography, buttons, box shadow, Lable & Badges, Alert, Pagination, Breadcumb, Cards, Collapse,
+        -   Carousel, Grid, Progress, Model, tooltip, popover, Datepicker, Gridstack, lightbox, notification, Nestable, pnotify, rating,
+        -   Rangeslider, Slider, Syntax Highlighter, Tour, Treeview, Toolbar, Session Timeout, Session idle Timeout, offline, Animation
+    - Forms
+        -   Forms Elements, Advance Form Control, Validation, Masking, Wizard, Picker, Select
+	- Pages
+		-   Chat, authentication, Maintenance, Maps, Landingpage messages, task, Todo, Notes, Charts, Icons, Gallery, Editors,
+        -   Invoice, Full Calender, File Upload,
+=================================================================================
+=================================================================================== */
+@use 'bootstrap/dist/css/bootstrap';
+// General theme contents
+@use 'partials/variables' as *;
+@use 'partials/general';
+@use 'partials/generic';
+@use 'partials/mixins/function';
+
+// icon
+@use 'partials/font/next-icon';
+@use 'partials/font/feather';
+@use 'partials/font/fontawesome';
+
+// important Element
+@use 'partials/menu/menu-lite';
+@use 'partials/widget/widget';
+
+// Theme Element
+@use 'partials/theme-elements/form';
+@use 'partials/theme-elements/radiobox-checkbox';
+@use 'partials/theme-elements/labels-badges';
+@use 'partials/theme-elements/data-tables';
+@use 'partials/theme-elements/authentication';
+@use 'partials/theme-elements/button';
+@use 'partials/theme-elements/breadcrumb-pagination';
+@use 'partials/theme-elements/progress';
+@use 'partials/theme-elements/nav';
+
+// Other
+@use 'partials/other/chat';
+
+@use 'partials/third-party/third-party';
